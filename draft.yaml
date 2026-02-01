@@ -1,0 +1,27 @@
+models:
+  Personaje:
+    nombre: string
+    nivel: integer
+    clase: string
+    raza: string
+    aliniamiento: string
+    historia: text
+
+controllers:
+  Personaje:
+    resource: api
+    validate:
+      store:
+        nombre: string|required
+        nivel: integer|required
+        clase: string|required
+        raza: string|required
+        aliniamiento: string|required
+        historia: string|required
+      update:
+        nombre: string
+        nivel: integer
+        clase: string
+        raza: string
+        aliniamiento: string
+        historia: string

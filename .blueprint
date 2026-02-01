@@ -1,0 +1,14 @@
+created:
+    - app/Http/Controllers/PersonajeController.php
+    - database/factories/PersonajeFactory.php
+    - database/migrations/2026_02_01_145948_create_personajes_table.php
+    - app/Models/Personaje.php
+    - tests/Feature/Http/Controllers/PersonajeControllerTest.php
+    - app/Http/Requests/PersonajeStoreRequest.php
+    - app/Http/Requests/PersonajeUpdateRequest.php
+    - app/Http/Resources/PersonajeCollection.php
+    - app/Http/Resources/PersonajeResource.php
+updated:
+    - routes/api.php
+models:
+    Personaje: { nombre: string, nivel: integer, clase: string, raza: string, aliniamiento: string, historia: text }
