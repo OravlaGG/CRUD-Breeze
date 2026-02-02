@@ -12,12 +12,12 @@ controllers:
     resource: api
     validate:
       store:
-        nombre: string|required
-        nivel: integer|required
-        clase: string|required
-        raza: string|required
-        aliniamiento: string|required
-        historia: string|required
+        nombre: string
+        nivel: integer
+        clase: string
+        raza: string
+        aliniamiento: string
+        historia: string
       update:
         nombre: string
         nivel: integer

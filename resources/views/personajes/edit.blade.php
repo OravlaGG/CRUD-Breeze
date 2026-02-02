@@ -13,7 +13,7 @@
 
                 @include('personajes.form')
 
-                <button class="bg-yellow-600 text-white px-4 py-2 rounded mt-4">
+                <button class="bg-yellow-600 text-black px-4 py-2 rounded mt-4">
                     Actualizar
                 </button>
             </form>

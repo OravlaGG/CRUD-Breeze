@@ -30,10 +30,10 @@
                                 <td>{{ $personaje->nivel }}</td>
                                 <td class="flex gap-2 py-2">
                                     <a href="{{ route('personajes.show', $personaje) }}"
-                                       class="text-blue-600">Ver</a>
+                                       class="text-green-600">Ver</a>
 
                                     <a href="{{ route('personajes.edit', $personaje) }}"
-                                       class="text-yellow-600">Editar</a>
+                                       class="text-blue-600">Editar</a>
 
                                     <form action="{{ route('personajes.destroy', $personaje) }}" method="POST">
                                         @csrf

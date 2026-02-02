@@ -12,7 +12,7 @@
 
                 @include('personajes.form')
 
-                <button class="bg-blue-600 text-white px-4 py-2 rounded mt-4">
+                <button class="bg-blue-600 text-black px-4 py-2 rounded mt-4">
                     Guardar
                 </button>
             </form>
