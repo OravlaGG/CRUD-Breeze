@@ -1,21 +1,23 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="text-xl font-semibold leading-tight">
+        <h2 class="text-2xl font-serif text-yellow-400 tracking-wide drop-shadow-lg">
             Crear Personaje
         </h2>
     </x-slot>
 
-    <div class="py-6">
-        <div class="max-w-4xl mx-auto sm:px-6 lg:px-8 bg-white p-6 rounded shadow">
+    <div class="py-8">
+        <div class="max-w-4xl mx-auto sm:px-6 lg:px-8 bg-red-900/70 border border-yellow-600 shadow-lg shadow-yellow-500/20 rounded-lg p-6">
+
             <form action="{{ route('personajes.store') }}" method="POST">
                 @csrf
 
                 @include('personajes.form')
 
-                <button class="bg-blue-600 text-black px-4 py-2 rounded mt-4">
+                <button class="mt-4 bg-red-800 border border-yellow-500 text-yellow-300 px-4 py-2 rounded hover:bg-red-700 hover:text-yellow-200 transition font-semibold tracking-wide">
                     Guardar
                 </button>
             </form>
+
         </div>
     </div>
 </x-app-layout>
